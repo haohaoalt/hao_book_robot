@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hao007/hao_book_robot/src/hao_cpp/cmake_compile/foo.h
+string
+-
+
+/home/hao007/hao_book_robot/src/hao_cpp/cmake_compile/main.cpp
+foo.h
+/home/hao007/hao_book_robot/src/hao_cpp/cmake_compile/foo.h
+

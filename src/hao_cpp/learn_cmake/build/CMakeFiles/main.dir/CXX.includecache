@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../helloworld/helloworld.h
+
+/home/hao007/hao_book_robot/src/hao_cpp/learn_cmake/main.cpp
+stdio.h
+-
+helloworld.h
+-
+
