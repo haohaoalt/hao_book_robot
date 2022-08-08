@@ -3,7 +3,7 @@
 
 int main(int argc, char** argv)
 {
-    cv::Mat img=cv::imread("1.jpg");
+    cv::Mat img = cv::imread("/home/hao007/hao_book_robot/src/hao_opencv/calc_hist/1.jpg");
     cv::Mat gray_img;
     cv::imshow("[img1]",img);
 

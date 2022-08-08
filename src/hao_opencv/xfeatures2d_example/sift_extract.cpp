@@ -14,13 +14,19 @@
 #include <sstream>
 #include <opencv2/opencv.hpp>
 #include <opencv2/xfeatures2d.hpp>
+/*3.4.18
+#include <opencv2/features2d.hpp>
+*/
 
 int main(int argc, char** argv)
 {
     //load image
-    cv::Mat src_img=cv::imread("1.jpg");
+    cv::Mat src_img = cv::imread("/home/hao007/hao_book_robot/src/hao_opencv/xfeatures2d_example/1.jpg");
 
-    cv::Ptr<cv::Feature2D> f2d=cv::xfeatures2d::SIFT::create();
+    //3.4.18 
+    //cv::Ptr<cv::Feature2D> f2d=cv::SIFT::create();
+    //3.2.0
+    cv::Ptr<cv::Feature2D> f2d = cv::xfeatures2d::SIFT::create();
     std::clock_t start_time,end_time;
     
     start_time=clock();//start timer

@@ -1,0 +1,5 @@
+/home/hao007/hao_book_robot/src/hao_opencv/xfeatures2d_example/build/CMakeFiles/rebuild_cache.dir
+/home/hao007/hao_book_robot/src/hao_opencv/xfeatures2d_example/build/CMakeFiles/orb_extract.dir
+/home/hao007/hao_book_robot/src/hao_opencv/xfeatures2d_example/build/CMakeFiles/edit_cache.dir
+/home/hao007/hao_book_robot/src/hao_opencv/xfeatures2d_example/build/CMakeFiles/sift_extract.dir
+/home/hao007/hao_book_robot/src/hao_opencv/xfeatures2d_example/build/CMakeFiles/surf_extract.dir

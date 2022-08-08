@@ -13,14 +13,14 @@
 #include <string>
 #include <sstream>
 #include <opencv2/opencv.hpp>
-#include <opencv2/xfeatures2d.hpp>
+#include <opencv2/xfeatures2d/nonfree.hpp>
 
 int main(int argc, char** argv)
 {
     //load image
-    cv::Mat src_img=cv::imread("1.jpg");
+    cv::Mat src_img = cv::imread("/home/hao007/hao_book_robot/src/hao_opencv/xfeatures2d_example/1.jpg");
 
-    cv::Ptr<cv::Feature2D> detector=cv::xfeatures2d::SURF::create(700);
+    auto detector=cv::xfeatures2d::SURF::create();
     std::clock_t start_time,end_time;
 
     start_time=clock();//start timer

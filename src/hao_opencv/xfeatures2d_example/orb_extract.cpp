@@ -17,7 +17,7 @@
 int main(int argc, char** argv)
 {
     //load image
-    cv::Mat src_img=cv::imread("1.jpg");
+    cv::Mat src_img = cv::imread("/home/hao007/hao_book_robot/src/hao_opencv/xfeatures2d_example/1.jpg");
 
     cv::Ptr<cv::Feature2D> detector=cv::ORB::create();
     std::clock_t start_time,end_time;
