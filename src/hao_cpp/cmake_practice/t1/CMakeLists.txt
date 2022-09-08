@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(t1)
+SET(SRC_LIST  main.cpp)
+message(STATUS "This is BINARY dir" ${t1_BINARY_DIR})
+message(STATUS "This is SOURCE dir" ${t1_SOURCE_DIR})
+add_executable(hello ${SRC_LIST})
